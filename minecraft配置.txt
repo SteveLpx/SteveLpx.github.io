@@ -1,0 +1,15 @@
+server {
+        #minecraft
+        listen 32767;
+        proxy_pass 47.243.245.105:32767;
+    }
+    server {
+        #minecraft
+        listen 32767 udp;
+        proxy_pass 47.243.245.105:32767;
+    }
+     server {
+        #minecraft
+        listen 233;
+        proxy_pass 47.243.245.105:23333;
+    }
